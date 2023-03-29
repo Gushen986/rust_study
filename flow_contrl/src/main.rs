@@ -32,4 +32,9 @@ fn main() {
         println!("the value is {}", a[index]);
         index += 1;
     }
+
+    let a = [10, 20, 30, 40, 50];
+    for ele in a {
+        println!("for: The value is {ele}");
+    }
 }
